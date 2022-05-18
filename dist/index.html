@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Magic Photography">
+    <meta name="description" content="Magic Photography | Offering Photography services like never before">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../scss/main.scss" />
+    <title>Magic Photography</title>
+  <script defer src="bundle.js"></script></head>
+  <body>
+     <header class="header container-fluid">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand position-relative text-danger fs-1 fw-bold" href="#">Magic<span class="brand-sub fs-5">Photography</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarLinks">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-4" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-4" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-4" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-4" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-4" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="intro text-center mt-4">
+          <h1 class="text-white fs-1 fw-bold position-relative pt-5">Magic Photography  <span><i class="bi bi-camera text-danger"></i></span></h1>
+          <p class="desc lead text-white fs-3 py-3 position-relative">In Magic Photography we give our clients the best
+            photoshoots by first hearing <br> from them and then analyzing their needs. Hire us today!
+          </p>
+          <div class="contact-btn my-4">
+            <a href="#contact" class="d-block position-relative fs-5 mt-3 btn btn-outline-danger text-white rounded mx-auto py-3" id="header-btn">Contact Us  <i class="bi bi-people-fill"></i></a>
+          </div>
+        </div>
+       </div>
+     </header> 
+     <div class="container-fluid">
+       <div class="container mb-3">
+         <h1 class="fw-bold-fs-1 text-danger text-center my-3" id="about-heading">About Us</h1>
+         <div class="row">
+           <div class="col-sm col-md-6">
+             <p class="lead fs-4 text-start text-dark lh-base">
+               Magic photography is dedicated in ensuring and <br>and providing
+               the best photography services. Our workers are well disciplined, <br> and ready to help
+               where necessary. <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+               Aliquid beatae.
+             </p>
+             <button type="button" class="btn btn-danger px-4 py-3 my-4 btn-lg rounded">Learn More</button>
+           </div>
+           <div class="col-sm col-md-6">
+             <img id="about-img" alt="about-img" class="img-fluid rounded-pill">
+           </div>
+         </div>
+       </div>
+     </div> 
+    <script src="./index.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
