@@ -5,7 +5,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #e6dada;
+  background-color: #f7efef;
 }
 .header{
   height: auto;
@@ -30,10 +30,21 @@ body{
     width: 200px;
   }
 }
-#about-heading{
+#heading{
   position: relative;
   
   &:hover{
     text-decoration: underline;
   }
 }
+.blog-card{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px 0px #000;
+
+  &:hover{
+    transform: scaleY(0.98);
+  }
+}
+
